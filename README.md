@@ -9,7 +9,9 @@ The full code will be released upon acceptance.
 - `evaluate.py`: computes wMAPE, nonzero wMAPE, MAE and RMSE (NumPy only).
 
 ## Reproducing Table II (Hangzhou)
+```
 python evaluate.py --gt hz_test_y.npz --pred predictions/hz/sphere_seed*.npz
+```
 
 | wMAPE (%) | wMAPE nonzero (%) | MAE | RMSE |
 |---|---|---|---|
