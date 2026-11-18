@@ -6,7 +6,7 @@ The full code will be released upon acceptance.
 
 ## Released now
 - `predictions/hz/sphere_seed{0..4}.npz`: test-set predictions on HZMetro (5 seeds), each an array `pred` of shape (345, 80, 80).
-- `evaluate.py`: computes wMAPE, nonzero wMAPE, MAE and RMSE (NumPy only).
+- `evaluate.py`: computes wMAPE, nonzero wMAPE, MAE and RMSE .
 
 ## Reproducing Table II (Hangzhou)
 ```
