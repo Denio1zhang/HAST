@@ -1,6 +1,6 @@
-# SPHERE
+# HAST
 
-This repository accompanies the paper *SPHERE: Station-Level Encoding with Pair-History Enhanced Readout for Metro Origin–Destination Prediction*.
+This repository accompanies the paper *Metro Origin–Destination Prediction via a History-Aware Station-Token Transformer*.
 
 The full code will be released upon acceptance.
 
