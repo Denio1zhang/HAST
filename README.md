@@ -1,16 +1,16 @@
 # HAST
 
-This repository accompanies the paper *Metro Origin–Destination Prediction via a History-Aware Station-Token Transformer(HAST)*.
+This repository accompanies the paper *Metro Origin–Destination Prediction via a History-Aware Station-Token Transformer (HAST)*.
 
 The full code will be released upon acceptance.
 
 ## Released now
-- `predictions/hz/sphere_seed{0..4}.npz`: test-set predictions on HZMetro (5 seeds), each an array `pred` of shape (345, 80, 80).
+- `predictions/hz/hast_seed{0..4}.npz`: test-set predictions on HZMetro (5 seeds), each an array `pred` of shape (345, 80, 80).
 - `evaluate.py`: computes wMAPE, nonzero wMAPE, MAE and RMSE.
 
 ## Reproducing Table II (Hangzhou)
 ```
-python evaluate.py --gt hz_test_y.npz --pred predictions/hz/sphere_seed*.npz
+python evaluate.py --gt hz_test_y.npz --pred predictions/hz/hast_seed*.npz
 ```
 
 | wMAPE (%) | wMAPE nonzero (%) | MAE | RMSE |

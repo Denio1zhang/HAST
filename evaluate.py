@@ -9,7 +9,7 @@ Each prediction file is an .npz with one array "pred" of shape (T, N, N).
 The ground truth is an .npz with one array "y" of the same shape.
 
 Usage:
-  python evaluate.py --gt hz_test_y.npz --pred predictions/hz/sphere_seed*.npz
+  python evaluate.py --gt hz_test_y.npz --pred predictions/hz/hast_seed*.npz
 """
 import argparse
 import glob
