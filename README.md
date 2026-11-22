@@ -1,6 +1,6 @@
 # HAST
 
-This repository accompanies the paper *Metro Origin–Destination Prediction via a History-Aware Station-Token Transformer*.
+This repository accompanies the paper *Metro Origin–Destination Prediction via a History-Aware Station-Token Transformer(HAST)*.
 
 The full code will be released upon acceptance.
 
